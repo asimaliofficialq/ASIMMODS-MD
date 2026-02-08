@@ -1,14 +1,4 @@
-/**
- * SILVER BOT - A WhatsApp Bot
- * Copyright (c) 2024 TALHA
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the MIT License.
- * 
- * Credits:
- * - Baileys Library by @adiwajshing
- * - Pair Code implementation inspired by TechGod143 & DGXEON
- */
+
 require('./settings')
 const { Boom } = require('@hapi/boom')
 const fs = require('fs')
@@ -160,7 +150,7 @@ async function startXeonBotInc() {
                             forwardingScore: 1,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363279142099991@newsletter',
+                                newsletterJid: '> 120363344550191646@newsletter',
                                 newsletterName: '𓆩 ASIM-ＭＤ 𓆪',
                                 serverMessageId: -1
                             }
@@ -269,7 +259,7 @@ async function startXeonBotInc() {
                         forwardingScore: 1,
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
-                            newsletterJid: '120363279142099991@newsletter',
+                            newsletterJid: '> 120363344550191646@newsletter',
                             newsletterName: '𓆩 ASIM-ＭＤ 𓆪',
                             serverMessageId: -1
                         }
@@ -282,8 +272,8 @@ async function startXeonBotInc() {
             await delay(1999)
             console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'SILVER BOT'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: SILVER TECH`))
-            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: SILVER TECH`))
+            console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL: ALI MODS`))
+            console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: ASIM MODS`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} WA NUMBER: ${owner}`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} CREDIT: ASIM MODS`))
             console.log(chalk.green(`${global.themeemoji || '•'} 🤖 Bot Connected Successfully! ✅`))
